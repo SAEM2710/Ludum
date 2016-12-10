@@ -9,21 +9,96 @@ ModelImporter:
     100002: msh_RoomTemplate
     100004: msh_WardrobeTemplate
     100006: //RootNode
+    100008: msh_AlarmclockTemplate
+    100010: msh_BedlightTemplate
+    100012: msh_BednighttableTemplate
+    100014: msh_CellinglightTemplate
+    100016: msh_ChairTemplate
+    100018: msh_DeskTemplate
+    100020: msh_LibraryTemplate
+    100022: msh_LightTemplate
+    100024: msh_MugTemplate
+    100026: msh_NotebookTemplate
+    100028: msh_PenTemplate
+    100030: msh_PillowTemplate1
+    100032: msh_PillowTemplate2
+    100034: msh_PlantTemplate
+    100036: msh_RugTemplate
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
     400006: //RootNode
+    400008: msh_AlarmclockTemplate
+    400010: msh_BedlightTemplate
+    400012: msh_BednighttableTemplate
+    400014: msh_CellinglightTemplate
+    400016: msh_ChairTemplate
+    400018: msh_DeskTemplate
+    400020: msh_LibraryTemplate
+    400022: msh_LightTemplate
+    400024: msh_MugTemplate
+    400026: msh_NotebookTemplate
+    400028: msh_PenTemplate
+    400030: msh_PillowTemplate1
+    400032: msh_PillowTemplate2
+    400034: msh_PlantTemplate
+    400036: msh_RugTemplate
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
     2300006: //RootNode
+    2300008: msh_AlarmclockTemplate
+    2300010: msh_BedlightTemplate
+    2300012: msh_BednighttableTemplate
+    2300014: msh_CellinglightTemplate
+    2300016: msh_ChairTemplate
+    2300018: msh_DeskTemplate
+    2300020: msh_LibraryTemplate
+    2300022: msh_LightTemplate
+    2300024: msh_MugTemplate
+    2300026: msh_NotebookTemplate
+    2300028: msh_PenTemplate
+    2300030: msh_PillowTemplate1
+    2300032: msh_PillowTemplate2
+    2300034: msh_PlantTemplate
+    2300036: msh_RugTemplate
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
     3300006: //RootNode
+    3300008: msh_AlarmclockTemplate
+    3300010: msh_BedlightTemplate
+    3300012: msh_BednighttableTemplate
+    3300014: msh_CellinglightTemplate
+    3300016: msh_ChairTemplate
+    3300018: msh_DeskTemplate
+    3300020: msh_LibraryTemplate
+    3300022: msh_LightTemplate
+    3300024: msh_MugTemplate
+    3300026: msh_NotebookTemplate
+    3300028: msh_PenTemplate
+    3300030: msh_PillowTemplate1
+    3300032: msh_PillowTemplate2
+    3300034: msh_PlantTemplate
+    3300036: msh_RugTemplate
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
+    4300006: msh_PillowTemplate1
+    4300008: msh_PillowTemplate2
+    4300010: msh_BednighttableTemplate
+    4300012: msh_BedlightTemplate
+    4300014: msh_AlarmclockTemplate
+    4300016: msh_DeskTemplate
+    4300018: msh_NotebookTemplate
+    4300020: msh_PenTemplate
+    4300022: msh_LightTemplate
+    4300024: msh_MugTemplate
+    4300026: msh_ChairTemplate
+    4300028: msh_RugTemplate
+    4300030: msh_LibraryTemplate
+    4300032: msh_CellinglightTemplate
+    4300034: msh_PlantTemplate
     9500000: //RootNode
   materials:
     importMaterials: 1
