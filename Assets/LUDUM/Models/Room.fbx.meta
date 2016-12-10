@@ -24,6 +24,37 @@ ModelImporter:
     100032: msh_PillowTemplate2
     100034: msh_PlantTemplate
     100036: msh_RugTemplate
+    100038: msh_BackpackTemplate
+    100040: msh_CandleTemplate1
+    100042: msh_CandleTemplate2
+    100044: msh_CandleTemplate3
+    100046: msh_CondomboxTemplate
+    100048: msh_CondomTemplate
+    100050: msh_CurtainTemplate
+    100052: msh_CylCurtainTemplate
+    100054: msh_DoorTemplate
+    100056: msh_DrawernighttableTemplate
+    100058: msh_FenceTemplate
+    100060: msh_FloorTemplate
+    100062: msh_GameboyTemplate
+    100064: msh_GrassTemplate
+    100066: msh_GuitarstandTemplate
+    100068: msh_GuitarTemplate
+    100070: msh_HandcuffsTemplate
+    100072: msh_HeaterTemplate
+    100074: msh_HifiTemplate
+    100076: msh_KamasutraTemplate
+    100078: msh_LaptopTemplate
+    100080: msh_PosterTemplate1
+    100082: msh_PosterTemplate2
+    100084: msh_PosterTemplate3
+    100086: msh_StuffedanimalTemplate1
+    100088: msh_StuffedanimalTemplate2
+    100090: msh_TissueTemplate
+    100092: msh_TrashcanTemplate
+    100094: msh_WallTemplate
+    100096: msh_WardrobedoorTemplate1
+    100098: msh_WardrobedoorTemplate2
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -43,6 +74,37 @@ ModelImporter:
     400032: msh_PillowTemplate2
     400034: msh_PlantTemplate
     400036: msh_RugTemplate
+    400038: msh_BackpackTemplate
+    400040: msh_CandleTemplate1
+    400042: msh_CandleTemplate2
+    400044: msh_CandleTemplate3
+    400046: msh_CondomboxTemplate
+    400048: msh_CondomTemplate
+    400050: msh_CurtainTemplate
+    400052: msh_CylCurtainTemplate
+    400054: msh_DoorTemplate
+    400056: msh_DrawernighttableTemplate
+    400058: msh_FenceTemplate
+    400060: msh_FloorTemplate
+    400062: msh_GameboyTemplate
+    400064: msh_GrassTemplate
+    400066: msh_GuitarstandTemplate
+    400068: msh_GuitarTemplate
+    400070: msh_HandcuffsTemplate
+    400072: msh_HeaterTemplate
+    400074: msh_HifiTemplate
+    400076: msh_KamasutraTemplate
+    400078: msh_LaptopTemplate
+    400080: msh_PosterTemplate1
+    400082: msh_PosterTemplate2
+    400084: msh_PosterTemplate3
+    400086: msh_StuffedanimalTemplate1
+    400088: msh_StuffedanimalTemplate2
+    400090: msh_TissueTemplate
+    400092: msh_TrashcanTemplate
+    400094: msh_WallTemplate
+    400096: msh_WardrobedoorTemplate1
+    400098: msh_WardrobedoorTemplate2
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -62,6 +124,37 @@ ModelImporter:
     2300032: msh_PillowTemplate2
     2300034: msh_PlantTemplate
     2300036: msh_RugTemplate
+    2300038: msh_BackpackTemplate
+    2300040: msh_CandleTemplate1
+    2300042: msh_CandleTemplate2
+    2300044: msh_CandleTemplate3
+    2300046: msh_CondomboxTemplate
+    2300048: msh_CondomTemplate
+    2300050: msh_CurtainTemplate
+    2300052: msh_CylCurtainTemplate
+    2300054: msh_DoorTemplate
+    2300056: msh_DrawernighttableTemplate
+    2300058: msh_FenceTemplate
+    2300060: msh_FloorTemplate
+    2300062: msh_GameboyTemplate
+    2300064: msh_GrassTemplate
+    2300066: msh_GuitarstandTemplate
+    2300068: msh_GuitarTemplate
+    2300070: msh_HandcuffsTemplate
+    2300072: msh_HeaterTemplate
+    2300074: msh_HifiTemplate
+    2300076: msh_KamasutraTemplate
+    2300078: msh_LaptopTemplate
+    2300080: msh_PosterTemplate1
+    2300082: msh_PosterTemplate2
+    2300084: msh_PosterTemplate3
+    2300086: msh_StuffedanimalTemplate1
+    2300088: msh_StuffedanimalTemplate2
+    2300090: msh_TissueTemplate
+    2300092: msh_TrashcanTemplate
+    2300094: msh_WallTemplate
+    2300096: msh_WardrobedoorTemplate1
+    2300098: msh_WardrobedoorTemplate2
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -81,6 +174,37 @@ ModelImporter:
     3300032: msh_PillowTemplate2
     3300034: msh_PlantTemplate
     3300036: msh_RugTemplate
+    3300038: msh_BackpackTemplate
+    3300040: msh_CandleTemplate1
+    3300042: msh_CandleTemplate2
+    3300044: msh_CandleTemplate3
+    3300046: msh_CondomboxTemplate
+    3300048: msh_CondomTemplate
+    3300050: msh_CurtainTemplate
+    3300052: msh_CylCurtainTemplate
+    3300054: msh_DoorTemplate
+    3300056: msh_DrawernighttableTemplate
+    3300058: msh_FenceTemplate
+    3300060: msh_FloorTemplate
+    3300062: msh_GameboyTemplate
+    3300064: msh_GrassTemplate
+    3300066: msh_GuitarstandTemplate
+    3300068: msh_GuitarTemplate
+    3300070: msh_HandcuffsTemplate
+    3300072: msh_HeaterTemplate
+    3300074: msh_HifiTemplate
+    3300076: msh_KamasutraTemplate
+    3300078: msh_LaptopTemplate
+    3300080: msh_PosterTemplate1
+    3300082: msh_PosterTemplate2
+    3300084: msh_PosterTemplate3
+    3300086: msh_StuffedanimalTemplate1
+    3300088: msh_StuffedanimalTemplate2
+    3300090: msh_TissueTemplate
+    3300092: msh_TrashcanTemplate
+    3300094: msh_WallTemplate
+    3300096: msh_WardrobedoorTemplate1
+    3300098: msh_WardrobedoorTemplate2
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -99,6 +223,37 @@ ModelImporter:
     4300030: msh_LibraryTemplate
     4300032: msh_CellinglightTemplate
     4300034: msh_PlantTemplate
+    4300036: msh_PosterTemplate1
+    4300038: msh_PosterTemplate2
+    4300040: msh_PosterTemplate3
+    4300042: msh_StuffedanimalTemplate1
+    4300044: msh_StuffedanimalTemplate2
+    4300046: msh_FenceTemplate
+    4300048: msh_FloorTemplate
+    4300050: msh_WallTemplate
+    4300052: msh_GrassTemplate
+    4300054: msh_CylCurtainTemplate
+    4300056: msh_CurtainTemplate
+    4300058: msh_DoorTemplate
+    4300060: msh_GameboyTemplate
+    4300062: msh_HeaterTemplate
+    4300064: msh_BackpackTemplate
+    4300066: msh_GuitarTemplate
+    4300068: msh_GuitarstandTemplate
+    4300070: msh_CondomboxTemplate
+    4300072: msh_CondomTemplate
+    4300074: msh_TissueTemplate
+    4300076: msh_CandleTemplate1
+    4300078: msh_CandleTemplate2
+    4300080: msh_CandleTemplate3
+    4300082: msh_KamasutraTemplate
+    4300084: msh_HandcuffsTemplate
+    4300086: msh_LaptopTemplate
+    4300088: msh_HifiTemplate
+    4300090: msh_TrashcanTemplate
+    4300092: msh_WardrobedoorTemplate2
+    4300094: msh_WardrobedoorTemplate1
+    4300096: msh_DrawernighttableTemplate
     9500000: //RootNode
   materials:
     importMaterials: 1
