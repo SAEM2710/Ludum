@@ -22,6 +22,9 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
         {
             m_fTimeMax = 60 * 2;
         }
+
+        SteamVR_Fade.Start(Color.black, 0);
+        SteamVR_Fade.Start(Color.clear, 3);
     }
 
     private void Update()
