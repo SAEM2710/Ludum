@@ -1,30 +1,22 @@
 fileFormatVersion: 2
-guid: 189f79053e9709c498ece3b709a19467
-timeCreated: 1481372990
-licenseType: Free
+guid: 950854b0e5850734db12d3c0e448f52b
+timeCreated: 1467286816
+licenseType: Store
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: msh_BedTemplate
-    100002: msh_RoomTemplate
-    100004: msh_WardrobeTemplate
-    100006: //RootNode
-    400000: msh_BedTemplate
-    400002: msh_RoomTemplate
-    400004: msh_WardrobeTemplate
-    400006: //RootNode
-    2300000: msh_BedTemplate
-    2300002: msh_RoomTemplate
-    2300004: msh_WardrobeTemplate
-    2300006: //RootNode
-    3300000: msh_BedTemplate
-    3300002: msh_RoomTemplate
-    3300004: msh_WardrobeTemplate
-    3300006: //RootNode
-    4300000: msh_RoomTemplate
-    4300002: msh_BedTemplate
-    4300004: msh_WardrobeTemplate
-    9500000: //RootNode
+    100000: beam
+    100002: beam_in
+    100004: //RootNode
+    400000: beam
+    400002: beam_in
+    400004: //RootNode
+    2300000: beam
+    2300002: beam_in
+    3300000: beam
+    3300002: beam_in
+    4300000: beam
+    4300002: beam_in
   materials:
     importMaterials: 1
     materialName: 0
@@ -83,7 +75,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
