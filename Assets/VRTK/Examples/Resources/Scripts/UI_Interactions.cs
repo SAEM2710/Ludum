@@ -2,6 +2,7 @@
 {
     using UnityEngine;
     using UnityEngine.UI;
+    using UnityEngine.SceneManagement;
 
     public class UI_Interactions : MonoBehaviour
     {
@@ -10,6 +11,7 @@
         public void Button_Red()
         {
             Debug.Log("Red Button Clicked");
+            SceneManager.LoadScene("S_Main");
         }
 
         public void Button_Pink()
