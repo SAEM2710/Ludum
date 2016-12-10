@@ -1,25 +1,35 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class S_GameManager : MonoBehaviour
+public class S_GameManager : S_GenericSingleton<S_GameManager>
 {
-    //private GameObject[] m_goTabObjects;
-	// Use this for initialization
+    [SerializeField] private GameObject m_goCamera;
+    private S_CameraRaycast S_CameraRaycastComponent;
+    private bool m_bGameLost;
+
 	void Start ()
     {
-        //m_goTabObjects = GameObject.FindGameObjectsWithTag("Object");
+        m_bGameLost = false;
+        S_CameraRaycastComponent = m_goCamera.GetComponent<S_CameraRaycast>();
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    private void Update()
     {
-	    /*for(int i = 0; i < m_goTabObjects.Length; ++i)
+        if(m_bGameLost)
         {
-            S_IsVisibleOrNot S_IsVisibleOrNotComponent = m_goTabObjects[i].GetComponent<S_IsVisibleOrNot>();
-            if (S_IsVisibleOrNotComponent.BIsVisible)
-            {
-                Camera.main.GetComponent<S_CameraRaycast>().CameraRaycast();
-            }
-        }*/
-	}
+            Debug.Log("GameOver");
+        }
+        else
+        {
+            Debug.Log("Nothing");
+        }
+    }
+
+    public void AskCameraToRaycast(Transform _tObjectTransform)
+    {
+        if(S_CameraRaycastComponent.CameraRaycast(_tObjectTransform))
+        {
+            m_bGameLost = true;
+        }
+    }
 }

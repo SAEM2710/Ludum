@@ -3,7 +3,6 @@ using System.Collections;
 
 public class S_CameraRaycast : MonoBehaviour
 {
-
     // Use this for initialization
     void Start()
     {
@@ -16,31 +15,30 @@ public class S_CameraRaycast : MonoBehaviour
 
     }
 
-    private void FixedUpdate()
+    public bool CameraRaycast(Transform _tObjectTransform)
     {
-        /*
-        m_v3TabVertex = m_goObjectToHide.GetComponent<MeshFilter>().mesh.vertices;
-        for (int i = 0; i < m_v3TabVertex.Length; ++i)
-        {
-            Vector3 v3VectorToVertex = new Vector3();
-            v3VectorToVertex = m_v3TabVertex[i] - transform.position;
-            float fDistance;
-            fDistance = Vector3.Distance(m_v3TabVertex[i], transform.position);
+        RaycastHit _rhHit;
+        Vector3 v3Direction = _tObjectTransform.position - transform.position;
+        float fLength = Vector3.Distance(_tObjectTransform.position, transform.position);
 
-            RaycastHit _rhHit;
-            if (Physics.Raycast(transform.position, v3VectorToVertex, out _rhHit, fDistance))
+        if (Physics.Raycast(transform.position, v3Direction, out _rhHit, fLength))
+        {
+            Debug.DrawRay(transform.position, v3Direction, Color.green);
+
+            if (_rhHit.collider.CompareTag("Obstacle"))
             {
-                if (_rhHit.collider.CompareTag("Obstacle"))
-                {
-                    //Debug.Log("Invisible");
-                }
-                else
-                {
-                    //Debug.Log("Visible");
-                }
+                Debug.Log(_tObjectTransform.name + ": Invisible");
+                return false;
+            }
+            else
+            {
+                Debug.Log(_tObjectTransform.name + ": Visible");
+                return true;
             }
         }
-    }*/
+        else
+        {
+            return false;
+        }
     }
-
 }
