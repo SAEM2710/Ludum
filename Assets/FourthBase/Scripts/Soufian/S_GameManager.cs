@@ -79,6 +79,11 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
         else
         {
             Debug.Log("Nothing");
+            if (BGameFinished)
+            {
+                m_sGameOverScript.Victory();
+                Debug.Log("Victory");
+            }
         }
 
         GameFinishedOrNot();

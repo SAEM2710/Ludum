@@ -71,6 +71,10 @@ public class S_AudioManager : MonoBehaviour
                 m_fTime += Time.deltaTime;
             }
         }
+        else
+        {
+            m_asAudioSource.Stop();
+        }
     }
 
            /* Debug.Log("Not Playing");
