@@ -181,6 +181,26 @@ ModelImporter:
     100346: pPlane3
     100348: pPlane4
     100350: tasse:pCylinder2
+    100352: grp_credits
+    100354: grp_room
+    100356: msh_TissueTemplate1
+    100358: msh_TissueTemplate2
+    100360: pPlane10
+    100362: pPlane5
+    100364: pPlane6
+    100366: pPlane7
+    100368: pPlane8
+    100370: pPlane9
+    100372: Trim_Char_F_1_1
+    100374: Trim_Text_AlessandroxLegato_1_2
+    100376: Trim_Text_CamillexMoreau_1_2
+    100378: Trim_Text_EdouardxBonnet_1_2
+    100380: Trim_Text_FlorentxCombe_1_2
+    100382: Trim_Text_FoehnxGallet_1_2
+    100384: Trim_Text_JulienxNeveu_1_2
+    100386: Trim_Text_SoufianxMaatx_1_2
+    100388: Trim_Text_TaraxQuinsac_1_2
+    100390: Trim_Text_TristanxPradens_1_2
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -357,6 +377,26 @@ ModelImporter:
     400346: pPlane3
     400348: pPlane4
     400350: tasse:pCylinder2
+    400352: grp_credits
+    400354: grp_room
+    400356: msh_TissueTemplate1
+    400358: msh_TissueTemplate2
+    400360: pPlane10
+    400362: pPlane5
+    400364: pPlane6
+    400366: pPlane7
+    400368: pPlane8
+    400370: pPlane9
+    400372: Trim_Char_F_1_1
+    400374: Trim_Text_AlessandroxLegato_1_2
+    400376: Trim_Text_CamillexMoreau_1_2
+    400378: Trim_Text_EdouardxBonnet_1_2
+    400380: Trim_Text_FlorentxCombe_1_2
+    400382: Trim_Text_FoehnxGallet_1_2
+    400384: Trim_Text_JulienxNeveu_1_2
+    400386: Trim_Text_SoufianxMaatx_1_2
+    400388: Trim_Text_TaraxQuinsac_1_2
+    400390: Trim_Text_TristanxPradens_1_2
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -527,6 +567,24 @@ ModelImporter:
     2300334: pPlane3
     2300336: pPlane4
     2300338: tasse:pCylinder2
+    2300340: msh_TissueTemplate1
+    2300342: msh_TissueTemplate2
+    2300344: pPlane10
+    2300346: pPlane5
+    2300348: pPlane6
+    2300350: pPlane7
+    2300352: pPlane8
+    2300354: pPlane9
+    2300356: Trim_Char_F_1_1
+    2300358: Trim_Text_AlessandroxLegato_1_2
+    2300360: Trim_Text_CamillexMoreau_1_2
+    2300362: Trim_Text_EdouardxBonnet_1_2
+    2300364: Trim_Text_FlorentxCombe_1_2
+    2300366: Trim_Text_FoehnxGallet_1_2
+    2300368: Trim_Text_JulienxNeveu_1_2
+    2300370: Trim_Text_SoufianxMaatx_1_2
+    2300372: Trim_Text_TaraxQuinsac_1_2
+    2300374: Trim_Text_TristanxPradens_1_2
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -697,6 +755,24 @@ ModelImporter:
     3300334: pPlane3
     3300336: pPlane4
     3300338: tasse:pCylinder2
+    3300340: msh_TissueTemplate1
+    3300342: msh_TissueTemplate2
+    3300344: pPlane10
+    3300346: pPlane5
+    3300348: pPlane6
+    3300350: pPlane7
+    3300352: pPlane8
+    3300354: pPlane9
+    3300356: Trim_Char_F_1_1
+    3300358: Trim_Text_AlessandroxLegato_1_2
+    3300360: Trim_Text_CamillexMoreau_1_2
+    3300362: Trim_Text_EdouardxBonnet_1_2
+    3300364: Trim_Text_FlorentxCombe_1_2
+    3300366: Trim_Text_FoehnxGallet_1_2
+    3300368: Trim_Text_JulienxNeveu_1_2
+    3300370: Trim_Text_SoufianxMaatx_1_2
+    3300372: Trim_Text_TaraxQuinsac_1_2
+    3300374: Trim_Text_TristanxPradens_1_2
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -865,6 +941,24 @@ ModelImporter:
     4300330: pPlane2
     4300332: pPlane3
     4300334: pPlane4
+    4300336: msh_TissueTemplate1
+    4300338: msh_TissueTemplate2
+    4300340: pPlane5
+    4300342: pPlane6
+    4300344: pPlane7
+    4300346: pPlane8
+    4300348: pPlane9
+    4300350: pPlane10
+    4300352: Trim_Text_EdouardxBonnet_1_2
+    4300354: Trim_Text_FlorentxCombe_1_2
+    4300356: Trim_Text_FoehnxGallet_1_2
+    4300358: Trim_Text_AlessandroxLegato_1_2
+    4300360: Trim_Text_SoufianxMaatx_1_2
+    4300362: Trim_Text_CamillexMoreau_1_2
+    4300364: Trim_Text_JulienxNeveu_1_2
+    4300366: Trim_Text_TristanxPradens_1_2
+    4300368: Trim_Text_TaraxQuinsac_1_2
+    4300370: Trim_Char_F_1_1
     9500000: //RootNode
   materials:
     importMaterials: 1
