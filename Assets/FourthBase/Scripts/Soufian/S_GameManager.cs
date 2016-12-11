@@ -81,6 +81,7 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
             {
                 Debug.Log(m_fTimeMax);
                 m_goIA.SetActive(true);
+                m_goCamera.SetActive(true);
                 //Instantiate(m_goIA, m_goIA.transform.position, m_goIA.transform.rotation);
                 m_bIsInstantiated = true;
                 //Play Animation
