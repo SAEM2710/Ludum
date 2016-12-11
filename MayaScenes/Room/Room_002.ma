@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: Room_001.ma
-//Last modified: Sun, Dec 11, 2016 09:17:38 PM
+//Name: Room_002.ma
+//Last modified: Sun, Dec 11, 2016 09:18:13 PM
 //Codeset: 1252
 requires maya "2016";
 requires "stereoCamera" "10.0";
@@ -16329,7 +16329,7 @@ createNode displayLayer -n "dehors";
 	setAttr ".v" no;
 	setAttr ".do" 2;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "A55302A0-473E-8308-D309-7F99A0A85B1B";
+	rename -uid "6086CD5B-46D9-02C6-6D94-B99BDA5FDDB6";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -458.33331512080366 -397.99867184899568 ;
 	setAttr ".tgi[0].vh" -type "double2" -289.28570279053321 251.5701062389727 ;
@@ -16915,4 +16915,4 @@ connectAttr "pPlaneShape8.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape9.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape10.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId24.msg" ":initialShadingGroup.gn" -na;
-// End of Room_001.ma
+// End of Room_002.ma
