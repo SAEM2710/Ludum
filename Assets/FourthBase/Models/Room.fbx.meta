@@ -155,6 +155,10 @@ ModelImporter:
     100294: pCube9
     100296: pCylinder1
     100298: pCylinder2
+    100300: books
+    100302: msh_CylcurtainTemplate
+    100304: msh_RoomdoorTemplate1
+    100306: msh_RoomdoorTemplate1 1
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -305,6 +309,10 @@ ModelImporter:
     400294: pCube9
     400296: pCylinder1
     400298: pCylinder2
+    400300: books
+    400302: msh_CylcurtainTemplate
+    400304: msh_RoomdoorTemplate1
+    400306: msh_RoomdoorTemplate1 1
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -451,6 +459,8 @@ ModelImporter:
     2300286: pCube9
     2300288: pCylinder1
     2300290: pCylinder2
+    2300292: msh_CylcurtainTemplate
+    2300294: msh_RoomdoorTemplate1 1
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -597,6 +607,8 @@ ModelImporter:
     3300286: pCube9
     3300288: pCylinder1
     3300290: pCylinder2
+    3300292: msh_CylcurtainTemplate
+    3300294: msh_RoomdoorTemplate1 1
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -742,6 +754,8 @@ ModelImporter:
     4300284: pCube82
     4300286: pCube83
     4300288: pCube84
+    4300290: msh_CylcurtainTemplate
+    4300292: msh_RoomdoorTemplate1
     9500000: //RootNode
   materials:
     importMaterials: 1
