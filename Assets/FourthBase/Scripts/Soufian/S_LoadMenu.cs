@@ -4,13 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class S_LoadMenu : MonoBehaviour
 {
+    [SerializeField] private GameObject m_goCamera;
+
     private bool m_bIsLoadingScene;
     private AudioSource m_asAudioSource;
     //private HingeJoint m_hjHingeJointComponent;
 	// Use this for initialization
 	void Start ()
     {
-        m_asAudioSource = Camera.main.GetComponent<AudioSource>();
+        m_asAudioSource = m_goCamera.GetComponent<AudioSource>();
         m_bIsLoadingScene = false;
         //m_hjHingeJointComponent = GetComponent<HingeJoint>();
     }
