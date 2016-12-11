@@ -25,15 +25,15 @@ public class S_CameraRaycast : MonoBehaviour
         {
             Debug.DrawRay(transform.position, v3Direction, Color.green);
 
-            if (_rhHit.collider.CompareTag("Obstacle"))
-            {
-                Debug.Log(_tObjectTransform.name + ": Invisible");
-                return false;
-            }
-            else
+            if (_rhHit.collider.CompareTag("Evidence"))
             {
                 Debug.Log(_tObjectTransform.name + ": Visible");
                 return true;
+            }
+            else
+            {
+                Debug.Log(_tObjectTransform.name + ": Invisible");
+                return false;
             }
         }
         else
