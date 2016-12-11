@@ -14,6 +14,7 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
 
     void Start ()
     {
+        m_goIA.SetActive(false);
         m_bGameLost = false;
         m_bIsInstantiated = false;
         m_bGameFinished = false;
@@ -79,7 +80,8 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
             if (!m_bIsInstantiated)
             {
                 Debug.Log(m_fTimeMax);
-                Instantiate(m_goIA, m_goIA.transform.position, m_goIA.transform.rotation);
+                m_goIA.SetActive(true);
+                //Instantiate(m_goIA, m_goIA.transform.position, m_goIA.transform.rotation);
                 m_bIsInstantiated = true;
                 //Play Animation
                 //Stop Player Movement
