@@ -71,6 +71,7 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
 
     private void Update()
     {
+        Debug.Log("game lost :" + BGameLost);
         if(BGameLost)
         {
             Debug.Log("GameOver");
