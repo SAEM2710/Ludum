@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class S_LoadMenu : MonoBehaviour
 {
-    [SerializeField] private GameObject m_goCamera;
+    //[SerializeField] private GameObject m_goCamera;
     [SerializeField] private float m_fFadeDuration;
     [SerializeField] private AudioSource m_asAudioSource;
 
