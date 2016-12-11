@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ede4efe26f2e83943b95453b024addf9
-timeCreated: 1481468333
+timeCreated: 1481474921
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -78,6 +78,7 @@ ModelImporter:
     100140: //RootNode
     100142: jnt_L_Pinkie01
     100144: jnt_R_Pinkie01
+    100146: jnt_Partner_Skeleton
     400000: jnt_BallsBase
     400002: jnt_BallsTip
     400004: jnt_Head
@@ -151,6 +152,7 @@ ModelImporter:
     400140: //RootNode
     400142: jnt_L_Pinkie01
     400144: jnt_R_Pinkie01
+    400146: jnt_Partner_Skeleton
     4300000: msh_Partner
     9500000: //RootNode
     13700000: msh_Partner
@@ -465,7 +467,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jnt_L_Pinkie02
+    - boneName: jnt_L_Pinkie01
       humanName: Left Little Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -473,7 +475,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jnt_L_Pinkie03
+    - boneName: jnt_L_Pinkie02
       humanName: Left Little Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -577,7 +579,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jnt_R_Pinkie02
+    - boneName: jnt_R_Pinkie01
       humanName: Right Little Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -585,8 +587,24 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jnt_R_Pinkie03
+    - boneName: jnt_R_Pinkie02
       humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt_L_Pinkie03
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt_R_Pinkie03
+      humanName: Right Little Distal
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}

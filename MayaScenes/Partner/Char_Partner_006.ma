@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: Char_Partner_006.ma
-//Last modified: Sun, Dec 11, 2016 05:40:09 PM
+//Last modified: Sun, Dec 11, 2016 05:47:27 PM
 //Codeset: 1252
 requires maya "2016";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "95CCCCF3-4961-FF92-68DB-B0BE8F33F5CC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.1703299758630021 1.2883973418338792 2.2873250052097753 ;
-	setAttr ".r" -type "double3" 710.66164723269299 1842.5999999995684 -5.4010448096708245e-016 ;
+	setAttr ".t" -type "double3" 0.5710074924636771 0.86355862699285768 3.1483695770149871 ;
+	setAttr ".r" -type "double3" 717.86164723268917 1811.3999999995642 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E714C255-4AA3-A8E2-0290-6E992843F3B0";
 	setAttr -k off ".v" no;
