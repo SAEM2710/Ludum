@@ -209,6 +209,7 @@ ModelImporter:
     100402: pPlane13
     100404: pPlane14
     100406: pPlane15
+    100408: msh_Floor
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -413,6 +414,7 @@ ModelImporter:
     400402: pPlane13
     400404: pPlane14
     400406: pPlane15
+    400408: msh_Floor
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -609,6 +611,7 @@ ModelImporter:
     2300386: pPlane13
     2300388: pPlane14
     2300390: pPlane15
+    2300392: msh_Floor
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -805,6 +808,7 @@ ModelImporter:
     3300386: pPlane13
     3300388: pPlane14
     3300390: pPlane15
+    3300392: msh_Floor
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -999,6 +1003,7 @@ ModelImporter:
     4300382: pPlane13
     4300384: pPlane14
     4300386: pPlane15
+    4300388: msh_Floor
     9500000: //RootNode
   materials:
     importMaterials: 1
