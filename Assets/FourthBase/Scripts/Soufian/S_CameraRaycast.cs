@@ -17,22 +17,29 @@ public class S_CameraRaycast : MonoBehaviour
 
     public bool CameraRaycast(Transform _tObjectTransform)
     {
-        RaycastHit _rhHit;
-        Vector3 v3Direction = _tObjectTransform.position - transform.position;
-        float fLength = Vector3.Distance(_tObjectTransform.position, transform.position);
-
-        if (Physics.Raycast(transform.position, v3Direction, out _rhHit, fLength))
+        if (gameObject.activeSelf)
         {
-            Debug.DrawRay(transform.position, v3Direction, Color.green);
+            RaycastHit _rhHit;
+            Vector3 v3Direction = _tObjectTransform.position - transform.position;
+            float fLength = Vector3.Distance(_tObjectTransform.position, transform.position);
 
-            if (_rhHit.collider.CompareTag("Evidence"))
+            if (Physics.Raycast(transform.position, v3Direction, out _rhHit, fLength))
             {
-                Debug.Log(_tObjectTransform.name + ": Visible");
-                return true;
+                Debug.DrawRay(transform.position, v3Direction, Color.green);
+
+                if (_rhHit.collider.CompareTag("Evidence"))
+                {
+                    Debug.Log(_tObjectTransform.name + ": Visible");
+                    return true;
+                }
+                else
+                {
+                    Debug.Log(_tObjectTransform.name + ": Invisible");
+                    return false;
+                }
             }
             else
             {
-                Debug.Log(_tObjectTransform.name + ": Invisible");
                 return false;
             }
         }

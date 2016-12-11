@@ -4,6 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class S_LoadMenu : MonoBehaviour
 {
+    [SerializeField] private GameObject m_goCamera;
+    [SerializeField] private float m_fFadeDuration;
+    [SerializeField] private AudioSource m_asAudioSource;
+
     private bool m_bIsLoadingScene;
     //private HingeJoint m_hjHingeJointComponent;
 	// Use this for initialization
@@ -20,9 +24,21 @@ public class S_LoadMenu : MonoBehaviour
         {
             if (transform.localRotation.eulerAngles.y > 24f)
             {
-                SceneManager.LoadScene("S_Main");
                 m_bIsLoadingScene = true;
+                SteamVR_Fade.Start(Color.black, m_fFadeDuration);
+                Invoke("PlayIntro", m_fFadeDuration + 1f);
+                Invoke("LoadMenu", m_asAudioSource.clip.length + m_fFadeDuration + 1f);
             }
         }
 	}
+
+    void LoadMenu()
+    {
+        SceneManager.LoadScene("S_Main");
+    }
+
+    void PlayIntro()
+    {
+        m_asAudioSource.Play();
+    }
 }
