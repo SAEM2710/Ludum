@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: Char_Partner_003.ma
-//Last modified: Sun, Dec 11, 2016 03:27:54 PM
+//Name: Char_Partner_004.ma
+//Last modified: Sun, Dec 11, 2016 03:28:19 PM
 //Codeset: 1252
 requires maya "2016";
 requires -nodeType "Unfold3DUnfold" "Unfold3D" "Trunk.r2128.release.Feb  3 2015|16:08:48";
@@ -14637,4 +14637,4 @@ connectAttr "polyMapSewMove7.out" "polyTweakUV5.ip";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "msh_PartnerShape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
-// End of Char_Partner_003.ma
+// End of Char_Partner_004.ma
