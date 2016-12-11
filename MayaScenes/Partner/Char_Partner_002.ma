@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: Char_Partner_001.ma
-//Last modified: Sun, Dec 11, 2016 09:33:25 AM
+//Name: Char_Partner_002.ma
+//Last modified: Sun, Dec 11, 2016 09:33:35 AM
 //Codeset: 1252
 requires maya "2016";
 requires "stereoCamera" "10.0";
@@ -3521,4 +3521,4 @@ connectAttr "msh_PartnerShape.wm" "polySoftEdge2.mp";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "msh_PartnerShape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
-// End of Char_Partner_001.ma
+// End of Char_Partner_002.ma
