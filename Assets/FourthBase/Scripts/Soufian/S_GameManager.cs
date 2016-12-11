@@ -38,10 +38,23 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
         }
     }
 
+    public bool BGameLost
+    {
+        get
+        {
+            return m_bGameLost;
+        }
+
+        set
+        {
+            m_bGameLost = value;
+        }
+    }
+
     void Start ()
     {
         m_goIA.SetActive(false);
-        m_bGameLost = false;
+        BGameLost = false;
         m_bIsInstantiated = false;
         BGameFinished = false;
         S_CameraRaycastComponent = m_goCamera.GetComponent<S_CameraRaycast>();
@@ -56,7 +69,7 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
 
     private void Update()
     {
-        if(m_bGameLost)
+        if(BGameLost)
         {
             Debug.Log("GameOver");
         }
@@ -73,7 +86,7 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
     {
         if(S_CameraRaycastComponent.CameraRaycast(_tObjectTransform))
         {
-            m_bGameLost = true;
+            BGameLost = true;
         }
     }
 
