@@ -66,7 +66,10 @@ public class S_WayPoint : MonoBehaviour
     {
         // Choose the next destination point when the agent gets
         // close to the current one.
-        if (agent.remainingDistance < 0.25f)
-            GotoNextPoint();
+        if (!S_GameManager.Instance.BGameLost)
+        {
+            if (agent.remainingDistance < 0.25f)
+                GotoNextPoint();
+        }
     }
 }
