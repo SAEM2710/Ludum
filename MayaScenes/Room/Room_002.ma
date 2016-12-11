@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: Room_001.ma
-//Last modified: Sun, Dec 11, 2016 10:44:18 PM
+//Name: Room_002.ma
+//Last modified: Sun, Dec 11, 2016 10:44:01 PM
 //Codeset: 1252
 requires maya "2016";
 requires "stereoCamera" "10.0";
@@ -35219,4 +35219,4 @@ connectAttr "pPlaneShape10.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "msh_TissueTemplate1Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "msh_TissueTemplate2Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId24.msg" ":initialShadingGroup.gn" -na;
-// End of Room_001.ma
+// End of Room_002.ma
