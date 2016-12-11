@@ -76,6 +76,8 @@ ModelImporter:
     100136: jnt_Spine03
     100138: msh_Partner
     100140: //RootNode
+    100142: jnt_L_Pinkie01
+    100144: jnt_R_Pinkie01
     400000: jnt_BallsBase
     400002: jnt_BallsTip
     400004: jnt_Head
@@ -147,6 +149,8 @@ ModelImporter:
     400136: jnt_Spine03
     400138: msh_Partner
     400140: //RootNode
+    400142: jnt_L_Pinkie01
+    400144: jnt_R_Pinkie01
     4300000: msh_Partner
     9500000: //RootNode
     13700000: msh_Partner
