@@ -168,6 +168,19 @@ ModelImporter:
     100320: pCylinder6
     100322: pCylinder7
     100324: pCylinder8
+    100326: grp_couloir
+    100328: msh_CandlesTemplate
+    100330: msh_CeilinglightTemplate
+    100332: msh_Chair
+    100334: msh_Notebook
+    100336: msh_PlantsTemplate
+    100338: pasted__msh_GrassTemplate1
+    100340: pasted__pPlane4
+    100342: pPlane1
+    100344: pPlane2
+    100346: pPlane3
+    100348: pPlane4
+    100350: tasse:pCylinder2
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -331,6 +344,19 @@ ModelImporter:
     400320: pCylinder6
     400322: pCylinder7
     400324: pCylinder8
+    400326: grp_couloir
+    400328: msh_CandlesTemplate
+    400330: msh_CeilinglightTemplate
+    400332: msh_Chair
+    400334: msh_Notebook
+    400336: msh_PlantsTemplate
+    400338: pasted__msh_GrassTemplate1
+    400340: pasted__pPlane4
+    400342: pPlane1
+    400344: pPlane2
+    400346: pPlane3
+    400348: pPlane4
+    400350: tasse:pCylinder2
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -488,6 +514,19 @@ ModelImporter:
     2300308: pCylinder6
     2300310: pCylinder7
     2300312: pCylinder8
+    2300314: msh_CandlesTemplate
+    2300316: msh_CeilinglightTemplate
+    2300318: msh_Chair
+    2300320: msh_Notebook
+    2300322: msh_PlantsTemplate
+    2300324: msh_RoomdoorTemplate1
+    2300326: pasted__msh_GrassTemplate1
+    2300328: pasted__pPlane4
+    2300330: pPlane1
+    2300332: pPlane2
+    2300334: pPlane3
+    2300336: pPlane4
+    2300338: tasse:pCylinder2
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -645,6 +684,19 @@ ModelImporter:
     3300308: pCylinder6
     3300310: pCylinder7
     3300312: pCylinder8
+    3300314: msh_CandlesTemplate
+    3300316: msh_CeilinglightTemplate
+    3300318: msh_Chair
+    3300320: msh_Notebook
+    3300322: msh_PlantsTemplate
+    3300324: msh_RoomdoorTemplate1
+    3300326: pasted__msh_GrassTemplate1
+    3300328: pasted__pPlane4
+    3300330: pPlane1
+    3300332: pPlane2
+    3300334: pPlane3
+    3300336: pPlane4
+    3300338: tasse:pCylinder2
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -801,6 +853,18 @@ ModelImporter:
     4300306: pCylinder7
     4300308: pCylinder8
     4300310: pCone1
+    4300312: msh_PlantsTemplate
+    4300314: msh_Chair
+    4300316: msh_CeilinglightTemplate
+    4300318: pasted__msh_GrassTemplate1
+    4300320: msh_CandlesTemplate
+    4300322: tasse:pCylinder2
+    4300324: msh_Notebook
+    4300326: pasted__pPlane4
+    4300328: pPlane1
+    4300330: pPlane2
+    4300332: pPlane3
+    4300334: pPlane4
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -844,7 +908,7 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
