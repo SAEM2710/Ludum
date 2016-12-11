@@ -14,8 +14,9 @@
         protected override void Awake()
         {
             m_Light = GetComponent<Light>();
+            Debug.Log("Lumiere : " + m_Light);
 
-            m_Light.intensity = m_IntensityOff;
+            m_Light.intensity = m_IntensityOn;
         }
 
         protected override void Start()
