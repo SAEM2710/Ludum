@@ -4,7 +4,10 @@
 
     public class OfficeLamp : VRTK_InteractableObject
     {
-        private bool m_IsOn;
+        private bool m_IsOn = false;
+
+        private float m_IntensityOff = 0;
+        private float m_IntensityOn = 1;
 
         private Light m_Light;
 
@@ -24,7 +27,9 @@
         {
             base.StartUsing(usingObject);
 
-            m_Light.gameObject.SetActive(!m_Light.gameObject.activeSelf);
+            m_IsOn = !m_IsOn;
+
+            m_Light.intensity = m_IsOn ? m_IntensityOn : m_IntensityOff;
         }
     }
 }
