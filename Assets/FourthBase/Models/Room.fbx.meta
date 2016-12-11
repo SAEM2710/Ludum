@@ -201,6 +201,14 @@ ModelImporter:
     100386: Trim_Text_SoufianxMaatx_1_2
     100388: Trim_Text_TaraxQuinsac_1_2
     100390: Trim_Text_TristanxPradens_1_2
+    100392: msh_Candle1
+    100394: msh_Candle2
+    100396: msh_Candle3
+    100398: pPlane11
+    100400: pPlane12
+    100402: pPlane13
+    100404: pPlane14
+    100406: pPlane15
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -397,6 +405,14 @@ ModelImporter:
     400386: Trim_Text_SoufianxMaatx_1_2
     400388: Trim_Text_TaraxQuinsac_1_2
     400390: Trim_Text_TristanxPradens_1_2
+    400392: msh_Candle1
+    400394: msh_Candle2
+    400396: msh_Candle3
+    400398: pPlane11
+    400400: pPlane12
+    400402: pPlane13
+    400404: pPlane14
+    400406: pPlane15
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -585,6 +601,14 @@ ModelImporter:
     2300370: Trim_Text_SoufianxMaatx_1_2
     2300372: Trim_Text_TaraxQuinsac_1_2
     2300374: Trim_Text_TristanxPradens_1_2
+    2300376: msh_Candle1
+    2300378: msh_Candle2
+    2300380: msh_Candle3
+    2300382: pPlane11
+    2300384: pPlane12
+    2300386: pPlane13
+    2300388: pPlane14
+    2300390: pPlane15
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -773,6 +797,14 @@ ModelImporter:
     3300370: Trim_Text_SoufianxMaatx_1_2
     3300372: Trim_Text_TaraxQuinsac_1_2
     3300374: Trim_Text_TristanxPradens_1_2
+    3300376: msh_Candle1
+    3300378: msh_Candle2
+    3300380: msh_Candle3
+    3300382: pPlane11
+    3300384: pPlane12
+    3300386: pPlane13
+    3300388: pPlane14
+    3300390: pPlane15
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -959,6 +991,14 @@ ModelImporter:
     4300366: Trim_Text_TristanxPradens_1_2
     4300368: Trim_Text_TaraxQuinsac_1_2
     4300370: Trim_Char_F_1_1
+    4300372: msh_Candle3
+    4300374: msh_Candle2
+    4300376: msh_Candle1
+    4300378: pPlane11
+    4300380: pPlane12
+    4300382: pPlane13
+    4300384: pPlane14
+    4300386: pPlane15
     9500000: //RootNode
   materials:
     importMaterials: 1
