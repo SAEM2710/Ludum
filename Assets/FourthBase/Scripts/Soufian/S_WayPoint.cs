@@ -68,6 +68,7 @@ public class S_WayPoint : MonoBehaviour
         // close to the current one.
         if (!S_GameManager.Instance.BGameLost)
         {
+            Debug.Log("toz");
             if (agent.remainingDistance < 0.25f)
                 GotoNextPoint();
         }
