@@ -11,7 +11,6 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
     private bool m_bGameLost;
     private bool m_bGameFinished;
     private bool m_bIsInstantiated;
-    private S_GameOver m_sGameOverScript;
 
     public float FTimeMax
     {
@@ -54,7 +53,6 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
 
     void Start ()
     {
-        m_sGameOverScript = GetComponent<S_GameOver>();
         m_goIA.SetActive(false);
         BGameLost = false;
         m_bIsInstantiated = false;
@@ -74,7 +72,6 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
         if(BGameLost)
         {
             Debug.Log("GameOver");
-            m_sGameOverScript.GameOver();
         }
         else
         {

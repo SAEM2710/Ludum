@@ -181,6 +181,40 @@ ModelImporter:
     100346: pPlane3
     100348: pPlane4
     100350: tasse:pCylinder2
+    100352: Char_A_1
+    100354: Char_B_1
+    100356: Char_E_1
+    100358: Char_F_1
+    100360: Char_H_1
+    100362: Char_O_1
+    100364: Char_R_1
+    100366: Char_S_1
+    100368: Char_T_1
+    100370: Char_U_1
+    100372: curve1
+    100374: curve10
+    100376: curve11
+    100378: curve12
+    100380: curve13
+    100382: curve14
+    100384: curve15
+    100386: curve2
+    100388: curve3
+    100390: curve4
+    100392: curve5
+    100394: curve6
+    100396: curve7
+    100398: curve8
+    100400: curve9
+    100402: grp_logo
+    100404: grp_room
+    100406: pPlane10
+    100408: pPlane5
+    100410: pPlane6
+    100412: pPlane7
+    100414: pPlane8
+    100416: pPlane9
+    100418: Trim_Char_F_1_1
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -357,6 +391,40 @@ ModelImporter:
     400346: pPlane3
     400348: pPlane4
     400350: tasse:pCylinder2
+    400352: Char_A_1
+    400354: Char_B_1
+    400356: Char_E_1
+    400358: Char_F_1
+    400360: Char_H_1
+    400362: Char_O_1
+    400364: Char_R_1
+    400366: Char_S_1
+    400368: Char_T_1
+    400370: Char_U_1
+    400372: curve1
+    400374: curve10
+    400376: curve11
+    400378: curve12
+    400380: curve13
+    400382: curve14
+    400384: curve15
+    400386: curve2
+    400388: curve3
+    400390: curve4
+    400392: curve5
+    400394: curve6
+    400396: curve7
+    400398: curve8
+    400400: curve9
+    400402: grp_logo
+    400404: grp_room
+    400406: pPlane10
+    400408: pPlane5
+    400410: pPlane6
+    400412: pPlane7
+    400414: pPlane8
+    400416: pPlane9
+    400418: Trim_Char_F_1_1
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -527,6 +595,13 @@ ModelImporter:
     2300334: pPlane3
     2300336: pPlane4
     2300338: tasse:pCylinder2
+    2300340: pPlane10
+    2300342: pPlane5
+    2300344: pPlane6
+    2300346: pPlane7
+    2300348: pPlane8
+    2300350: pPlane9
+    2300352: Trim_Char_F_1_1
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -697,6 +772,13 @@ ModelImporter:
     3300334: pPlane3
     3300336: pPlane4
     3300338: tasse:pCylinder2
+    3300340: pPlane10
+    3300342: pPlane5
+    3300344: pPlane6
+    3300346: pPlane7
+    3300348: pPlane8
+    3300350: pPlane9
+    3300352: Trim_Char_F_1_1
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -865,6 +947,13 @@ ModelImporter:
     4300330: pPlane2
     4300332: pPlane3
     4300334: pPlane4
+    4300336: Trim_Char_F_1_1
+    4300338: pPlane5
+    4300340: pPlane6
+    4300342: pPlane7
+    4300344: pPlane8
+    4300346: pPlane9
+    4300348: pPlane10
     9500000: //RootNode
   materials:
     importMaterials: 1
