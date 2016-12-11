@@ -15,7 +15,7 @@
         {
             m_Light = GetComponent<Light>();
 
-            m_Light.gameObject.SetActive(false);
+            m_Light.intensity = m_IntensityOff;
         }
 
         protected override void Start()
