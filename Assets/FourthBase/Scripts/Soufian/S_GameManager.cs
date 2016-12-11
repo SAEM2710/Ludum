@@ -12,16 +12,42 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
     private bool m_bGameFinished;
     private bool m_bIsInstantiated;
 
+    public float FTimeMax
+    {
+        get
+        {
+            return m_fTimeMax;
+        }
+
+        set
+        {
+            m_fTimeMax = value;
+        }
+    }
+
+    public bool BGameFinished
+    {
+        get
+        {
+            return m_bGameFinished;
+        }
+
+        set
+        {
+            m_bGameFinished = value;
+        }
+    }
+
     void Start ()
     {
         m_goIA.SetActive(false);
         m_bGameLost = false;
         m_bIsInstantiated = false;
-        m_bGameFinished = false;
+        BGameFinished = false;
         S_CameraRaycastComponent = m_goCamera.GetComponent<S_CameraRaycast>();
-        if (m_fTimeMax <= 0f)
+        if (FTimeMax <= 0f)
         {
-            m_fTimeMax = 60 * 2;
+            FTimeMax = 60 * 2;
         }
 
         SteamVR_Fade.Start(Color.black, 0);
@@ -53,24 +79,24 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
 
     private void GameFinishedOrNot()
     {
-        if (m_fTimeMax <= 0f)
+        if (FTimeMax <= 0f)
         {
-            m_bGameFinished = true;
-            m_fTimeMax = 0f;
+            BGameFinished = true;
+            FTimeMax = 0f;
         }
         else
         {
-            m_bGameFinished = false;
+            BGameFinished = false;
         }
     }
 
     private void TimerCountdown()
     {
-        if (!m_bGameFinished)
+        if (!BGameFinished)
         {
-            m_fTimeMax -= Time.deltaTime;
-            float fMinutes = Mathf.Floor(m_fTimeMax / 60);
-            float fSecondes = Mathf.Floor(m_fTimeMax - fMinutes * 60);
+            FTimeMax -= Time.deltaTime;
+            float fMinutes = Mathf.Floor(FTimeMax / 60);
+            float fSecondes = Mathf.Floor(FTimeMax - fMinutes * 60);
             string sDisplayedMinutes = fMinutes.ToString("00");
             string sDisplayedSecondes = fSecondes.ToString("00");
             Debug.Log(sDisplayedMinutes + ":" + sDisplayedSecondes);
@@ -79,7 +105,7 @@ public class S_GameManager : S_GenericSingleton<S_GameManager>
         {
             if (!m_bIsInstantiated)
             {
-                Debug.Log(m_fTimeMax);
+                Debug.Log(FTimeMax);
                 m_goIA.SetActive(true);
                 m_goCamera.SetActive(true);
                 //Instantiate(m_goIA, m_goIA.transform.position, m_goIA.transform.rotation);
