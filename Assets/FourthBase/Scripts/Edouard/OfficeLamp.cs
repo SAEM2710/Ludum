@@ -27,6 +27,8 @@
         {
             base.StartUsing(usingObject);
 
+            Debug.Log("Allume/Eteint");
+
             m_IsOn = !m_IsOn;
 
             m_Light.intensity = m_IsOn ? m_IntensityOn : m_IntensityOff;
