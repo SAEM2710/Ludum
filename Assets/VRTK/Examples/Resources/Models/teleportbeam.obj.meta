@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 0128ce137157900489b4d182ded7352a
+guid: 950854b0e5850734db12d3c0e448f52b
+timeCreated: 1467286816
+licenseType: Store
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: msh_GameboyTemplate
-    400000: //RootNode
-    400002: msh_GameboyTemplate
-    2300000: msh_GameboyTemplate
-    3300000: msh_GameboyTemplate
-    4300000: msh_GameboyTemplate
-    9500000: //RootNode
+    100000: beam
+    100002: beam_in
+    100004: //RootNode
+    400000: beam
+    400002: beam_in
+    400004: //RootNode
+    2300000: beam
+    2300002: beam_in
+    3300000: beam
+    3300002: beam_in
+    4300000: beam
+    4300002: beam_in
   materials:
     importMaterials: 1
     materialName: 0
@@ -35,7 +41,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -69,7 +75,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

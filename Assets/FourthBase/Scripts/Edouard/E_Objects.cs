@@ -2,7 +2,7 @@
 {
     using UnityEngine;
 
-    public class LightObjects : VRTK_InteractableObject
+    public class E_Objects : VRTK_InteractableObject
     {
         public AudioClip[] m_Grabbed;
         public AudioClip[] m_Dropped;
