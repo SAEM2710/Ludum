@@ -245,6 +245,9 @@ ModelImporter:
     100474: msh_SoufianxMaatx
     100476: msh_TaraxQuinsac
     100478: msh_TristanxPradens
+    100480: msh_Lefthandcuff
+    100482: msh_Linkhandcuff
+    100484: msh_Righthandcuff
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -485,6 +488,9 @@ ModelImporter:
     400474: msh_SoufianxMaatx
     400476: msh_TaraxQuinsac
     400478: msh_TristanxPradens
+    400480: msh_Lefthandcuff
+    400482: msh_Linkhandcuff
+    400484: msh_Righthandcuff
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -715,6 +721,9 @@ ModelImporter:
     2300454: msh_SoufianxMaatx
     2300456: msh_TaraxQuinsac
     2300458: msh_TristanxPradens
+    2300460: msh_Lefthandcuff
+    2300462: msh_Linkhandcuff
+    2300464: msh_Righthandcuff
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -945,6 +954,9 @@ ModelImporter:
     3300454: msh_SoufianxMaatx
     3300456: msh_TaraxQuinsac
     3300458: msh_TristanxPradens
+    3300460: msh_Lefthandcuff
+    3300462: msh_Linkhandcuff
+    3300464: msh_Righthandcuff
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -1173,6 +1185,9 @@ ModelImporter:
     4300450: msh_FoehnxGallet
     4300452: msh_FlorentxCombe
     4300454: msh_EdouardxBonnet
+    4300456: msh_Linkhandcuff
+    4300458: msh_Lefthandcuff
+    4300460: msh_Righthandcuff
     9500000: //RootNode
   materials:
     importMaterials: 1
