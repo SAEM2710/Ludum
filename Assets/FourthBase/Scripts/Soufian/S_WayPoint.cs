@@ -61,6 +61,14 @@ public class S_WayPoint : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("EndTrigger"))
+        {
+            S_GameManager.Instance.GetComponent<S_GameOver>().Victory();
+        }
+    }
+
 
     void Update()
     {

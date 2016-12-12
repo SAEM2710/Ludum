@@ -167,7 +167,11 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nDefault bone length found in this file is different
+      form the one found in the source avatar:\n\t'jnt_L_Knee' : position error =
+      85888.304688 mm\n\t'jnt_L_Ankle' : position error = 71069.453125 mm\n\t'jnt_R_Knee'
+      : position error = 85888.296875 mm\n\t'jnt_R_Ankle' : position error = 71069.468750
+      mm\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
@@ -182,7 +186,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

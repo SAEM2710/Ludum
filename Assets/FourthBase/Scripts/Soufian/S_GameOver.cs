@@ -47,6 +47,7 @@ public class S_GameOver : MonoBehaviour {
     {
         if (!IsPlayingVictory)
         {
+            Debug.Log("Victory !");
             m_asAudioSource.clip = m_acVictoryClip;
             m_asAudioSource.Play();
             Invoke("LoadMenu", m_acVictoryClip.length + 1f);
