@@ -210,6 +210,41 @@ ModelImporter:
     100404: pPlane14
     100406: pPlane15
     100408: msh_Floor
+    100410: ceintre002
+    100412: ceintre003
+    100414: ceintre004
+    100416: ceintre005
+    100418: ceintre006
+    100420: ceintre007
+    100422: ceintre012
+    100424: ceintre013
+    100426: ceintre014
+    100428: grp_ceintres
+    100430: grp_menu
+    100432: msh_AlessandroxLegato
+    100434: msh_BackPack
+    100436: msh_BoomBox
+    100438: msh_Boxers
+    100440: msh_CamillexMoreau
+    100442: msh_DesklightTemplate
+    100444: msh_EdouardxBonnet
+    100446: msh_FlorentxCombe
+    100448: msh_FoehnxGallet
+    100450: msh_Guitar
+    100452: msh_HancuffsTemplate
+    100454: msh_Hint
+    100456: msh_JulienxNeveu
+    100458: msh_L_Sock
+    100460: msh_Logo
+    100462: msh_NighttablelightTemplate
+    100464: msh_Pants
+    100466: msh_Pillow
+    100468: msh_Pillow1
+    100470: msh_R_Sock
+    100472: msh_Shirt
+    100474: msh_SoufianxMaatx
+    100476: msh_TaraxQuinsac
+    100478: msh_TristanxPradens
     400000: msh_BedTemplate
     400002: msh_RoomTemplate
     400004: msh_WardrobeTemplate
@@ -415,6 +450,41 @@ ModelImporter:
     400404: pPlane14
     400406: pPlane15
     400408: msh_Floor
+    400410: ceintre002
+    400412: ceintre003
+    400414: ceintre004
+    400416: ceintre005
+    400418: ceintre006
+    400420: ceintre007
+    400422: ceintre012
+    400424: ceintre013
+    400426: ceintre014
+    400428: grp_ceintres
+    400430: grp_menu
+    400432: msh_AlessandroxLegato
+    400434: msh_BackPack
+    400436: msh_BoomBox
+    400438: msh_Boxers
+    400440: msh_CamillexMoreau
+    400442: msh_DesklightTemplate
+    400444: msh_EdouardxBonnet
+    400446: msh_FlorentxCombe
+    400448: msh_FoehnxGallet
+    400450: msh_Guitar
+    400452: msh_HancuffsTemplate
+    400454: msh_Hint
+    400456: msh_JulienxNeveu
+    400458: msh_L_Sock
+    400460: msh_Logo
+    400462: msh_NighttablelightTemplate
+    400464: msh_Pants
+    400466: msh_Pillow
+    400468: msh_Pillow1
+    400470: msh_R_Sock
+    400472: msh_Shirt
+    400474: msh_SoufianxMaatx
+    400476: msh_TaraxQuinsac
+    400478: msh_TristanxPradens
     2300000: msh_BedTemplate
     2300002: msh_RoomTemplate
     2300004: msh_WardrobeTemplate
@@ -612,6 +682,39 @@ ModelImporter:
     2300388: pPlane14
     2300390: pPlane15
     2300392: msh_Floor
+    2300394: ceintre002
+    2300396: ceintre003
+    2300398: ceintre004
+    2300400: ceintre005
+    2300402: ceintre006
+    2300404: ceintre007
+    2300406: ceintre012
+    2300408: ceintre013
+    2300410: ceintre014
+    2300412: msh_AlessandroxLegato
+    2300414: msh_BackPack
+    2300416: msh_BoomBox
+    2300418: msh_Boxers
+    2300420: msh_CamillexMoreau
+    2300422: msh_DesklightTemplate
+    2300424: msh_EdouardxBonnet
+    2300426: msh_FlorentxCombe
+    2300428: msh_FoehnxGallet
+    2300430: msh_Guitar
+    2300432: msh_HancuffsTemplate
+    2300434: msh_Hint
+    2300436: msh_JulienxNeveu
+    2300438: msh_L_Sock
+    2300440: msh_Logo
+    2300442: msh_NighttablelightTemplate
+    2300444: msh_Pants
+    2300446: msh_Pillow
+    2300448: msh_Pillow1
+    2300450: msh_R_Sock
+    2300452: msh_Shirt
+    2300454: msh_SoufianxMaatx
+    2300456: msh_TaraxQuinsac
+    2300458: msh_TristanxPradens
     3300000: msh_BedTemplate
     3300002: msh_RoomTemplate
     3300004: msh_WardrobeTemplate
@@ -809,6 +912,39 @@ ModelImporter:
     3300388: pPlane14
     3300390: pPlane15
     3300392: msh_Floor
+    3300394: ceintre002
+    3300396: ceintre003
+    3300398: ceintre004
+    3300400: ceintre005
+    3300402: ceintre006
+    3300404: ceintre007
+    3300406: ceintre012
+    3300408: ceintre013
+    3300410: ceintre014
+    3300412: msh_AlessandroxLegato
+    3300414: msh_BackPack
+    3300416: msh_BoomBox
+    3300418: msh_Boxers
+    3300420: msh_CamillexMoreau
+    3300422: msh_DesklightTemplate
+    3300424: msh_EdouardxBonnet
+    3300426: msh_FlorentxCombe
+    3300428: msh_FoehnxGallet
+    3300430: msh_Guitar
+    3300432: msh_HancuffsTemplate
+    3300434: msh_Hint
+    3300436: msh_JulienxNeveu
+    3300438: msh_L_Sock
+    3300440: msh_Logo
+    3300442: msh_NighttablelightTemplate
+    3300444: msh_Pants
+    3300446: msh_Pillow
+    3300448: msh_Pillow1
+    3300450: msh_R_Sock
+    3300452: msh_Shirt
+    3300454: msh_SoufianxMaatx
+    3300456: msh_TaraxQuinsac
+    3300458: msh_TristanxPradens
     4300000: msh_RoomTemplate
     4300002: msh_BedTemplate
     4300004: msh_WardrobeTemplate
@@ -1004,6 +1140,39 @@ ModelImporter:
     4300384: pPlane14
     4300386: pPlane15
     4300388: msh_Floor
+    4300390: ceintre002
+    4300392: ceintre003
+    4300394: ceintre004
+    4300396: ceintre005
+    4300398: ceintre006
+    4300400: ceintre007
+    4300402: ceintre012
+    4300404: ceintre013
+    4300406: ceintre014
+    4300408: msh_BackPack
+    4300410: msh_Boxers
+    4300412: msh_L_Sock
+    4300414: msh_Pants
+    4300416: msh_R_Sock
+    4300418: msh_Shirt
+    4300420: msh_BoomBox
+    4300422: msh_HancuffsTemplate
+    4300424: msh_NighttablelightTemplate
+    4300426: msh_DesklightTemplate
+    4300428: msh_Pillow
+    4300430: msh_Pillow1
+    4300432: msh_Guitar
+    4300434: msh_Logo
+    4300436: msh_Hint
+    4300438: msh_TaraxQuinsac
+    4300440: msh_TristanxPradens
+    4300442: msh_JulienxNeveu
+    4300444: msh_CamillexMoreau
+    4300446: msh_SoufianxMaatx
+    4300448: msh_AlessandroxLegato
+    4300450: msh_FoehnxGallet
+    4300452: msh_FlorentxCombe
+    4300454: msh_EdouardxBonnet
     9500000: //RootNode
   materials:
     importMaterials: 1
