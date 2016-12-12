@@ -7,6 +7,7 @@
         private bool m_IsOn = true;
 
         private AudioSource m_Music;
+        public AudioClip[] m_acAmbianceClips;
 
         protected override void Awake()
         {
@@ -26,9 +27,16 @@
 
             if(m_IsOn)
             {
-                m_Music.Pause();
+                m_Music.Stop();
+                m_Music.clip = m_acAmbianceClips[0];
+                m_Music.Play();
             }
-            else { m_Music.UnPause(); }
+            else
+            {
+                m_Music.Stop();
+                m_Music.clip = m_acAmbianceClips[1];
+                m_Music.Play();
+            }
         }
     }
 }
