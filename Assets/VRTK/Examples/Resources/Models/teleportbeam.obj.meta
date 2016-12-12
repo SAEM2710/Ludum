@@ -1,21 +1,22 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: ae4b8de6afb3c21408ea646629739925
-timeCreated: 1481508428
-=======
-guid: 933fda4fdfaa0e341ade7b63a0c1600b
-timeCreated: 1481508049
->>>>>>> df3a4afcc2371ceceabdd5fa8267e5f1d04aefbb
-licenseType: Free
+guid: 950854b0e5850734db12d3c0e448f52b
+timeCreated: 1467286816
+licenseType: Store
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: msh_BedTemplate
-    9500000: //RootNode
+    100000: beam
+    100002: beam_in
+    100004: //RootNode
+    400000: beam
+    400002: beam_in
+    400004: //RootNode
+    2300000: beam
+    2300002: beam_in
+    3300000: beam
+    3300002: beam_in
+    4300000: beam
+    4300002: beam_in
   materials:
     importMaterials: 1
     materialName: 0
@@ -74,7 +75,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
