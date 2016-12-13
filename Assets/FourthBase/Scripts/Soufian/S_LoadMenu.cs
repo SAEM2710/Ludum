@@ -82,7 +82,7 @@ public class S_LoadMenu : MonoBehaviour
             yield return new WaitForSeconds(0.005f);
         }*/
 
-        while (m_asAmbiance.volume < 1f)
+        while (m_asAmbiance.volume < 0.35f)
         {
             yield return new WaitForSeconds(0.1f);
             Debug.Log("volume increasing");
